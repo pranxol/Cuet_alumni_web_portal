@@ -1,0 +1,130 @@
+﻿* {
+  margin: 0px;
+  padding: 0px;
+}
+.versityname {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+	margin-bottom:20px;
+	padding:5px;
+	font-weight: bold; 
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+.headlinebackground{
+    background-color: #DCDCDC; /*#f1f1f1*/
+    padding:5px;
+	
+}
+
+.welcome{
+	border: 2px solid powderblue;
+    padding: 30px;
+    color:blue;
+	text-align:center;
+	font-size: 40px;
+
+}
+
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	width:100%;
+    
+}
+
+.menuitemleft {
+	float: left;
+}
+
+.menuitemright {
+	float: right;
+}
+
+.menuitemleft a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.menuitemright a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: red;
+}
+
+.menuitemleft a:hover:not(.active),.menuitemright a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.menuitemleft a:hover,.menuitemright a:hover {
+    background-color: #ddd;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+	
+nav {
+    float: left;
+    width: 30%;
+    height: 230px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 64%;
+    background-color: #f1f1f1;
+    height: 230px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
