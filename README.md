@@ -1,1 +1,1 @@
-# Cuet_alumni_web_portal
+# Cuet alumni web portal
