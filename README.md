@@ -3,6 +3,7 @@
 It is a web portal where alumni of CUET can communicate with each other after creating their account. It is also a platform for the current student to connect with the alumni easily.
 
 Language: HTML, CSS, PHP, MySQL
+
 Software: XAMPP, Web Browser
 
 Here are some screenshot:
